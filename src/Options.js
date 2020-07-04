@@ -9,7 +9,7 @@ const Option =(props)=>{
   return (
       // onChange would run the change handler function
       <div>
-        <select onChange ={changeHandler}>
+        <select className='select' onChange ={changeHandler}>
           <option>Pentatonic</option>
           <option>Blues</option>
           <option>Dorian</option>

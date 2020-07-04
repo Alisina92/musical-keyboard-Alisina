@@ -42,7 +42,11 @@ const soundHandler =()=>{
        }
         }
   
-    return (<button onClick={soundHandler}>{props.name}</button>);//OnClick which runs the function to play the sound
+    return (
+      <button  className="Key"  onClick={soundHandler}>
+        {props.name}
+      </button>
+    );//OnClick which runs the function to play the sound
 
   }
 

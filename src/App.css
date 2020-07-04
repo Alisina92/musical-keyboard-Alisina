@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+   
 }
 
 .App-logo {
@@ -27,7 +29,26 @@
 .App-link {
   color: #61dafb;
 }
-
+.Key{
+ background-color: rgb(0, 115, 255);
+ color: white;
+ border: 1px solid rgb(0, 115, 255);
+ border-radius: 25px;
+ height: 40px;
+ margin: 5px;
+ font-weight: bold;
+  
+}
+.select{
+   background-color: orange;
+   color: white;
+   font-weight: bold;
+   height: 30px;
+   border: 1px solid orange;
+}
+ .title{
+   color: red;
+ }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
